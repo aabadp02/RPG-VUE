@@ -1,11 +1,15 @@
 <script setup lang="ts">
-
+import SeccionPrincipal from '../components/HomeViewComponents/SeccionPrincipal.vue'
+import Description1 from '@/components/HomeViewComponents/Description1.vue'
 </script>
 
 <template>
-<h1>
-    hola
-</h1>
+  <SeccionPrincipal />
+  <Description1 />
 </template>
 
-<style scoped></style>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
