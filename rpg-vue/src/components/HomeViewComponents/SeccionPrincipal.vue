@@ -172,7 +172,7 @@ button:active {
 }
 .to-scroll-down {
   max-width: 2.5rem;
-  margin: 0.5% 0% 0% 50%;
+  margin: 0.8% 0% 0% 50%;
   transform: scale(var(--ggs, 1));
   animation: shake-vertical 4s infinite alternate-reverse both;
 }

@@ -3,27 +3,28 @@
 <template>
   <div class="main">
     <div class="card">
-      <div class="column col1">
-        <img class="image" src="@/assets/images/landingPage/pxa3.png" alt="" />
-      </div>
       <div class="column col2">
         <div class="text">
           <span
-            >En Room Heroes, navegarás por un extenso mundo repleto de secretos que esperan ser
-            desvelados. Es una tierra repleta de personajes fascinantes, con sus propias historias.
+            >Atraviesa vibrantes paisajes adornados con imponentes castillos, frondosos bosques y
+            desolados páramos, cada uno con sus secretos y desafíos.
           </span>
           <br />
           <br />
           <span
-            >Encuentra tesoros ocultos y objetos clave que te ayudarán durante la aventura.</span
-          >
+            >Con su fascinante estética pixel art, Room Heroes te transporta a la edad de oro de los
+            videojuegos, donde cada píxel rebosa detalles intrincados y nostalgia.
+          </span>
         </div>
-        <div class="spriteContainer">
+        <!-- <div class="spriteContainer">
           <div class="sprite1"></div>
           <div class="sprite2"></div>
           <div class="sprite3"></div>
           <div class="sprite4"></div>
-        </div>
+        </div> -->
+      </div>
+      <div class="column col1">
+        <img class="image" src="@/assets/images/landingPage/pxa2.png" alt="" />
       </div>
     </div>
   </div>
@@ -59,9 +60,9 @@
   max-width: 100%;
   max-height: 100%;
   height: auto;
-  border-radius: 30px 0px 0px 30px;
-  mask-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
-  -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0) 3%, rgba(0, 0, 0, 0.65) 20%);
+  border-radius: 0px 30px 30px 0px;
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 3%, rgba(0, 0, 0, 0.65) 20%);
   transition: 0.3s;
   filter: brightness(1.3);
 }
@@ -72,8 +73,6 @@
   /* background-color: rgb(79, 79, 6); */
   padding-top: 15px;
   overflow: hidden;
-  display: flex;
-  align-content: space-around;
 }
 .text {
   font-family: 'Press Start 2P';

@@ -4,26 +4,25 @@
   <div class="main">
     <div class="card">
       <div class="column col1">
-        <img class="image" src="@/assets/images/landingPage/pxa3.png" alt="" />
+        <img class="image" src="@/assets/images/landingPage/pxa4.png" alt="" />
       </div>
       <div class="column col2">
         <div class="text">
           <span
-            >En Room Heroes, navegarás por un extenso mundo repleto de secretos que esperan ser
-            desvelados. Es una tierra repleta de personajes fascinantes, con sus propias historias.
+            >Guiado por tu espíritu indomable y tu valor inquebrantable, te embarcarás en una búsqueda épica que pondrá a prueba tu temple y marcará el destino del reino.
           </span>
           <br />
           <br />
           <span
-            >Encuentra tesoros ocultos y objetos clave que te ayudarán durante la aventura.</span
+            >Armado con una espada legendaria y dotado de poderes extraordinarios, te pondrás en la piel de nuestro héroe, listo para enfrentarte a formidables desafíos y desentrañar el intrincado tapiz de un mundo que se tambalea al borde del olvido.</span
           >
         </div>
-        <div class="spriteContainer">
+        <!-- <div class="spriteContainer">
           <div class="sprite1"></div>
           <div class="sprite2"></div>
           <div class="sprite3"></div>
           <div class="sprite4"></div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -72,8 +71,6 @@
   /* background-color: rgb(79, 79, 6); */
   padding-top: 15px;
   overflow: hidden;
-  display: flex;
-  align-content: space-around;
 }
 .text {
   font-family: 'Press Start 2P';
