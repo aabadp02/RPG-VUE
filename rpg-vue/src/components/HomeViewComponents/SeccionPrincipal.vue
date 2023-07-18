@@ -18,7 +18,7 @@
       </p>
       <div class="botones">
         <div class="loginButton">
-          <button>
+          <button @click="$router.push('/login')">
             <div class="loginButtonIcon">
               <img src="@/assets/images/landingPage/users.png" alt="" style="height: 1.5rem" />
             </div>
@@ -26,7 +26,7 @@
           </button>
         </div>
         <div class="playButton">
-          <button>
+          <button @click="$router.push('/game')">
             <div class="playButtonIcon">
               <img src="@/assets/images/landingPage/sword.png" alt="" style="height: 1.5rem" />
             </div>
