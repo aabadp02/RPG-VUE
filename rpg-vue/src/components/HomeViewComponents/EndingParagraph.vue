@@ -76,6 +76,7 @@ button {
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 button span {
